@@ -1,0 +1,4 @@
+.tblBorder table, .tblBorder th, .tblBorder td{
+border: solid 1px black;
+border-collapse: collapse;
+}

@@ -1,0 +1,11 @@
+Name: <input type="text" [(ngModel)] = "studentObj.Name" placeholder="Enter Name"/> 
+<br/><br/>
+Gender: <select [(ngModel)] = "studentObj.Gender" aria-placeholder="Select Gender"><option>Male</option><option>Female</option></select> 
+<br/><br/>
+Age: <input type="text" [(ngModel)] = "studentObj.Age" placeholder="Enter Age"/> 
+<br/><br/>
+<button (click)="fnSubmit()">Submit</button>
+
+<br/><br/><br/>
+
+<app-records [List]="studentList"></app-records>
